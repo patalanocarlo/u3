@@ -1,0 +1,37 @@
+.section {
+  background-color: black;
+  color: white;
+  padding: 20px 0;
+  margin-left: 15rem;
+  margin-right: 15rem;
+}
+
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+}
+
+.image-container {
+  flex: 1;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+.text-container {
+  flex: 1;
+  text-align: center;
+}
+.photo {
+  width: 20rem;
+}
